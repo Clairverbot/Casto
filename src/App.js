@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './assets/icon/logo.png';
-import './App.css';
+import Landing from './components/Landing'
+import SelectLanguage from './components/SelectLanguage'
+import ChooseVideo from './components/ChooseVideo'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Learn from './components/Learn';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div style={{ fontWeight: 'bold', color: '#DBD56E', fontSize:64 }}>CASTO</div>
-        <div>Learning languages made easy</div>
-        <br/>
-        <div className="row">
-          <div className="col">
-            <a className="waves-effect waves-light cyan btn-large">Learn Alone</a>
-          </div>
-          <div className="col">
-            <a className="waves-effect waves-light green lighten-2 btn-large">Invite Friends</a>
-          </div>
-        </div>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/learn">
+            <Learn />
+          </Route>
+          <Route path="/chooseVideo">
+            <ChooseVideo />
+          </Route>
+          <Route path="/selectLanguage">
+            <SelectLanguage />
+          </Route>
+          <Route path="/">
+            <Landing />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
