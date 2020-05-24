@@ -20,8 +20,8 @@ export default function SelectLanguage() {
               <div className="card-image waves-effect waves-block waves-light " style={{ width: '30%', margin: 'auto', paddingTop: 12 }}>
                 <img src={chinese} />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Chinese (CN)</span>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">Chinese (CN)</span>
               </div>
             </div>
           </div>
@@ -30,8 +30,8 @@ export default function SelectLanguage() {
               <div className="card-image waves-effect waves-block waves-light " style={{ width: '30%', margin: 'auto', paddingTop: 12 }}>
                 <img src={english} />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">English (UK)</span>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">English (UK)</span>
               </div>
             </div>
           </div>
@@ -40,8 +40,8 @@ export default function SelectLanguage() {
               <div className="card-image waves-effect waves-block waves-light " style={{ width: '30%', margin: 'auto', paddingTop: 12 }}>
                 <img src={malay} />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Malay (MY)</span>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">Malay (MY)</span>
               </div>
             </div>
           </div>

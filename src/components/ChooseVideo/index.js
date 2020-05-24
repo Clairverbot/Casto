@@ -21,8 +21,8 @@ export default function ChooseVideo() {
               <div className="card-image waves-effect waves-block waves-light ">
                 <img src={thumbnail} />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Spongebob - No this is Patrick</span>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">Spongebob - No this is Patrick</span>
               </div>
             </div>
           </div>

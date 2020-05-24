@@ -3,7 +3,6 @@ import Nav from '../Nav'
 import thumbnail from '../../assets/videos/patrick-thumbnail.jpg';
 import ReactPlayer from 'react-player'
 import { Link } from "react-router-dom";
-
 export default function Learn() {
   return (
     <div>
@@ -28,7 +27,7 @@ export default function Learn() {
           <div className="col s2"></div>
         </div>
         <div className="center-align row">
-          <Link to='/selectLanguage' className="waves-effect waves-light cyan btn-large">I'm Ready!</Link>
+          <Link to='/practice' className="waves-effect waves-light cyan btn-large">I'm Ready!</Link>
         </div>
         {/*
       mute 
